@@ -30,6 +30,7 @@ Finally, we reach Vanity OS itself, and this is where the philosophy began. Vani
 Within this directory, I have created a guide on what files you need, how to utilize the scripts, what to remove manually by hand, and what you'll need to add back in certain flavours (**Give particular attention to Performante**). This guide should be easy to follow, but in-case something goes wrong, or you have a question for me, you can find me on the official Vanity OS telegram group, or message me on XDA.
 
 **Telegram Group Link: https://t.me/VanityOS**
+
 **XDA Account Username: https://xdaforums.com/m/skulldron.7243932/**
 
 **Conclusion:**
