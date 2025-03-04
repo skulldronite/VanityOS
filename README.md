@@ -24,3 +24,14 @@ The Legacy series, is the operating system of choice, for those who still want O
 **Vanity OS - 9.0:**
 
 Finally, we reach Vanity OS itself, and this is where the philosophy began. Vanity OS is the ultimate combination of performance, and OEM features, with de-skin scripts that run quite deep, as well as almost full modularity, allowing for major revisions to features and framework. While again, this doesn't go as deep as Performante, it is still a very significant update, and some of the ROMs created with its tools are some of the best around in terms of performance, battery & features.
+
+**How can I build a variant?**
+
+Within this directory, I have created a guide on what files you need, how to utilize the scripts, what to remove manually by hand, and what you'll need to add back in certain flavours (**Give particular attention to Performante**). This guide should be easy to follow, but in-case something goes wrong, or you have a question for me, you can find me on the official Vanity OS telegram group, or message me on XDA.
+
+**Telegram Group Link: https://t.me/VanityOS**
+**XDA Account Username: https://xdaforums.com/m/skulldron.7243932/**
+
+**Conclusion:**
+
+Well, I hope that whoever you are, whether you're someone who wants to learn Android development, and want to start with something small in-terms of development, I hope you find success in making one of these flavours. I also want to make sure you understand, that any work you create using my scripts is **your** work, and you will never need to credit me. However, I would love to see your work, so please do tag me, if you do make something! If you are simply a user, who clicked on this link to view the source code of this firmware, I hope that you are enjoying your experience with Vanity OS, regardless of the flavour, and I wish you a bugless experience. That's it for now, so please check the other documents for further information, on whatever you need.
