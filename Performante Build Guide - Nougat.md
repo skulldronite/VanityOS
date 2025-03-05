@@ -86,14 +86,14 @@ If your device **does** have **calling or messaging** functionality, then copy t
 
 **Step 8: Rebuilding the META-INF and Compiling ROM**<br>
 1. We're on the final few steps now. Close all your folders, and go back to **Classy Kitchen**. Once Classy Kitchen is open, click on the "**META-INF Utils** button, and then click on "**Rebuild META-INF installer:**". Once you click this, a prompt will appear asking what name you'd like when the ROM is being flashed. Input this name, in this format: <br>
-**Performante <version number> - <insert model number> - <insert the current date>** <br>
+**Performante (version number) - (insert model no.) - (insert today's day)** <br>
 So a finished name, would look like this: <br>
 **Performante 1.0 - T815 - 5/03/2025** <br>
 Once you have given the name, click the confirm button, and wait for the kitchen to rebuild your **META-INF** file. <br>
 2. Once the **META-INF** file is created, click on the "**Project Utils**" button, and click on the "**Build ZIP ROM (for recovery)**" button. Once this is done, the kitchen will ask whether you'd like to **Zip Align** the ROM before compilation. Click **Yes**. <br>
 3. After the kitchen finishes zip aligning, another prompt will appear asking what would you like to name the zip file. **Input the name Build1**.
 4. Once the ROM finishes compiling, go into the **Classy Kitchen Folder**, and go-to the "**Output**" folder, and you will now see your finished ROM! Just rename the zip to this format: <br>
-**Performante <insert version number> - <insert model number> - <insert the current date>** <br>
+**Performante (insert version number) - (insert model number) - (insert current date)** <br>
 A finished zip file name should look like this: <br>
 **Performante 1.0 - T815 - 5-03-2025.zip** <br>
 And with that, CONGRAGULATIONS! Your ROM build is officially complete! Upload this zip file to whatever file sharing host server you want, make your **XDA thread**, and post it!
