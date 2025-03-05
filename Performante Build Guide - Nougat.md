@@ -1,4 +1,4 @@
-#**Build Guide for Vanity OS Flavour - Performante**
+![image](https://github.com/user-attachments/assets/e8a1126f-b2b5-4b17-a718-1c476d0ef768)#**Build Guide for Vanity OS Flavour - Performante**
 
 This is going to be a guide on how to build the Performante flavour, of Vanity OS. You will need all the files within the "**Download List**".
 
@@ -78,8 +78,22 @@ Mtweaks <br>
 PrintRecommendationService <br>
 PrintSpooler <br>**
 If you noticed, we omitted only the "**Dialer**" & "**Messaging**", since they are not needed. <br>
-If your device **does** have **calling or messaging** functionality, then copy these folders too.
- 
+If your device **does** have **calling or messaging** functionality, then copy these folders too. <br>
+3. Go back to the main folder of the **Nougat Module**, and head into the fonts folder. Do the same with the main system folder too. **Copy** all of the files within the module's font folder, to your system's font folder. <br>
+4. Next, go back to the main folder of the **Nougat Module** folder, and then go to the media folder. Then go into the audio folder and do the same on your system folder. Now copy all three folders from the modules folder, into your system folder. <br>
+5. Head back to the main folder of the **Nougat Module**, and go into the priv-app folder. Now do the same on the system folder, and then copy all of the folders from the priv-app folder in the module folder, back to the system folder. <br>
+6. Finally, go back to the main directory within the **Nougat Module** folder, and copy the wallpaper folder, to the main directory of your system folder. This will setup a default Performante Wallpaper, for when the user first boots in. If you wanna add your own custom wallpaper, head into the wallpaper folder, and replace the pictures in there, with the same filename. **It has to be a 1:1 file name, or the system will not acknowledge it.**. And we're finally done building our Performante ROM! <br>
 
-
-
+**Step 8: Rebuilding the META-INF and Compiling ROM**<br>
+1. We're on the final few steps now. Close all your folders, and go back to **Classy Kitchen**. Once Classy Kitchen is open, click on the "**META-INF Utils** button, and then click on "**Rebuild META-INF installer:**". Once you click this, a prompt will appear asking what name you'd like when the ROM is being flashed. Input this name, in this format: <br>
+**Performante <version number> - <insert model number> - <insert the current date>** <br>
+So a finished name, would look like this: <br>
+**Performante 1.0 - T815 - 5/03/2025** <br>
+Once you have given the name, click the confirm button, and wait for the kitchen to rebuild your **META-INF** file. <br>
+2. Once the **META-INF** file is created, click on the "**Project Utils**" button, and click on the "**Build ZIP ROM (for recovery)**" button. Once this is done, the kitchen will ask whether you'd like to **Zip Align** the ROM before compilation. Click **Yes**. <br>
+3. After the kitchen finishes zip aligning, another prompt will appear asking what would you like to name the zip file. **Input the name Build1**.
+4. Once the ROM finishes compiling, go into the **Classy Kitchen Folder**, and go-to the "**Output**" folder, and you will now see your finished ROM! Just rename the zip to this format: <br>
+**Performante <insert version number> - <insert model number> - <insert the current date>** <br>
+A finished zip file name should look like this: <br>
+**Performante 1.0 - T815 - 5-03-2025.zip** <br>
+And with that, CONGRAGULATIONS! Your ROM build is officially complete! Upload this zip file to whatever file sharing host server you want, make your **XDA thread**, and post it!
