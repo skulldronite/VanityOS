@@ -14,7 +14,7 @@ Download only **one** of the CSCs, and follow this priority of availability in C
 3. Also ensure that you have extracted the "**Vanity OS - Dev Kit**" zip file that you downloaded, since you'll need a lot of the files within this.
 
 **Step 2: Extracting and decrypting the firmware:** <br>
-1. Now that we have our firmwares, store them in a new folder. Label the folder as "Classy <insert model of device>", and place the **Classy Kitchen Executable**, in this folder.
+1. Now that we have our firmwares, store them in a new folder. Label the folder as "Classy (insert model of device)", and place the **Classy Kitchen Executable**, in this folder.
 2. Double click the Classy Kitchen executable, and wait for it to load. Once it loads, click "**Create New Project**. <br>
 3. Once you do this, it should open a new prompt, asking where you want to pull the firmware source from. Click on "**From PC (Browse for one)**", and then select the firmware zip file that you downloaded. <br>
 4. It will now ask for a project name. Name it **"Performante 1.0 - <insert model number> - <insert today's date>"**. After this, it will start extracting. <br>
