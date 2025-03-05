@@ -52,23 +52,10 @@ Notice, that at the end is the full build ID of the stock firmware, and at the s
 4. Once this is done, save the file, and we are now done with the **de-skinning** process of building a ROM! <br>
 
 **Step 7: Adding back any cut content:** <br>
-1. Now that we have completed removing features and application, let's now start adding any required replacements. Stay in the main system directory you're on, and put this folder on your left splitscreen. Now open the **Vanity OS - Dev Kit** folder, and navigate to the **Oreo Module** folder. <br>
-2. Within this folder, you'll now see multiple folders, with different names. We'll go through each folder individually. First open the "**app**" folder on both the system folder and the Oreo module folder. Now depending on whether the device your building has **calling or messaging** capabilites, you will copy different folders. If your device does **not** have **calling or messaging** capabilities, then only copy these folders: <br>
-**Calendar <br>
-DeskClock <br>
-Eleven <br>
-ExactCalculator <br>
-Files <br>
-LatinIME <br>
-Mtweaks <br>
-PrintRecommendationService <br>
-PrintSpooler <br>**
-If you noticed, we omitted only the "**Dialer**" & "**Messaging**", since they are not needed. <br>
-If your device **does** have **calling or messaging** functionality, then copy these folders too. <br>
-3. Go back to the main folder of the **Oreo Module**, and head into the fonts folder. Do the same with the main system folder too. **Copy** all of the files within the module's font folder, to your system's font folder. <br>
-4. Next, go back to the main folder of the **Oreo Module** folder, and then go to the media folder. Then go into the audio folder and do the same on your system folder. Now copy all three folders from the modules folder, into your system folder. <br>
-5. Head back to the main folder of the **Oreo Module**, and go into the priv-app folder. Now do the same on the system folder, and then copy all of the folders from the priv-app folder in the module folder, back to the system folder. <br>
-6. Finally, go back to the main directory within the **Oreo Module** folder, and copy the wallpaper folder, to the main directory of your system folder. This will setup a default Vanity OS Legacy Wallpaper, for when the user first boots in. If you wanna add your own custom wallpaper, head into the wallpaper folder, and replace the pictures in there, with the same filename. **It has to be a 1:1 file name, or the system will not acknowledge it.**. And we're finally done building our Vanity OS Legacy ROM! <br>
+1. Now that we have completed removing features and application, let's now start adding any required replacements. Stay in the main system directory you're on, and put this folder on your left splitscreen. Now open the **Vanity OS - Dev Kit** folder, and navigate to the **Oreo & Pie Module** folder. <br>
+2. Within this folder, you'll now see multiple files, with different names. We'll only need two files from this folder. Copy the **Files** folder from the **Oreo & Pie Module** to the app folder in the main directory of your system. Along with this, copy the **wallpaper** folder to the main directory of your system. This will setup a default Vanity OS Legacy Wallpaper, for when the user first boots in. If you wanna add your own custom wallpaper, head into the wallpaper folder, and replace the pictures in there, with the same filename. **It has to be a 1:1 file name, or the system will not acknowledge it.**. <br>
+3. Go back to the main folder of the **Oreo Module**, and put the two files, NotoColorEmoji.ttf & SamsungColorEmoji.ttf into your clipboard. Now navigate to your system's main directory, and into the "**fonts**" folder. Paste the two files within there.
+And we're finally done building our Vanity OS Legacy ROM! <br>
 
 **Step 8: Rebuilding the META-INF and Compiling ROM**<br>
 1. We're on the final few steps now. Close all your folders, and go back to **Classy Kitchen**. Once Classy Kitchen is open, click on the "**META-INF Utils** button, and then click on "**Rebuild META-INF installer:**". Once you click this, a prompt will appear asking what name you'd like when the ROM is being flashed. Input this name, in this format: <br>
