@@ -96,4 +96,4 @@ Once you have given the name, click the confirm button, and wait for the kitchen
 **Performante (insert version number) - (insert model number) - (insert current date)** <br>
 A finished zip file name should look like this: <br>
 **Performante 1.0 - T815 - 5-03-2025.zip** <br>
-And with that, CONGRAGULATIONS! Your ROM build is officially complete! Upload this zip file to whatever file sharing host server you want, make your **XDA thread**, and post it!
+And with that, **CONGRAGULATIONS**! Your ROM build is officially complete! Upload this zip file to whatever file sharing host server you want, make your **XDA thread**, and post it!
