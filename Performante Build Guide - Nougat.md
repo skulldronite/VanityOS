@@ -4,7 +4,7 @@ This is going to be a guide on how to build the Performante flavour, of Vanity O
 
 **Step 1: Downloading Nougat firmwares:** <br>
 1. We'll need to get our stock **Nougat** Samsung firmware, that we'll use as a base to work on. Head over to https://samfw.com/ , and type in your model no. to find the firmware you need. <br>
-2. Target these **CSCs** when given the choice, as they offer the most features/compatibility:<br>
+2. Target these **CSCs** when given the choice, as they offer the most features/compatibility:br>
 - BTU <br>
 - XSA <br>
 - XSG <br>
@@ -17,7 +17,7 @@ Download only **one** of the CSCs, and follow this priority of availability in C
 1. Now that we have our firmwares, store them in a new folder. Label the folder as "Classy (insert model of device)", and place the **Classy Kitchen Executable**, in this folder.
 2. Double click the Classy Kitchen executable, and wait for it to load. Once it loads, click "**Create New Project**. <br>
 3. Once you do this, it should open a new prompt, asking where you want to pull the firmware source from. Click on "**From PC (Browse for one)**", and then select the firmware zip file that you downloaded. <br>
-4. It will now ask for a project name. Name it **"Performante 1.0 - <insert model number> - <insert today's date>"**. After this, it will start extracting. <br>
+4. It will now ask for a project name. Name it **"Performante 1.0 - (insert model number) - (insert today's date)"**. After this, it will start extracting. <br>
 5. It will finally ask to input a name for the **flashing of the ROM**. Just input whatever random name you want, as we will have to rebuild the installer script later.
    
 **Step 3: Running the first De-skin scripts:** <br>
@@ -32,7 +32,7 @@ Download only **one** of the CSCs, and follow this priority of availability in C
 4. Looking at the two files, you will notice that factory floating_feature file, has significantly more lines in comparison to the NP file. What you want to do, it to start **removing** lines that are in the factory file, but are not in the NP file. **Please ensure you are careful when deleting these lines, since making a mistake such as leaving a bracket unclosed, or removing the wrong file, will result in the ROM bootlooping or unintended feature breaks. I have extensively tested the removal of the lines that I have selected, so I can verify that these do not cause issues. If you want to remove more lines, then feel free to experiment, but DO NOT RELEASE THE BUILD WITHOUT TESTING.** <br>
 5. Once you have removed all the lines, head to the particular line: <br>
 **<SEC_FLOATING_FEATURE_SETTINGS_CONFIG_BRAND_NAME>Galaxy Tab S2</SEC_FLOATING_FEATURE_SETTINGS_CONFIG_BRAND_NAME>**. <br>
-Now your line may look a little different, depending on the model that you are building for, but that doesn't matter. Over here, edit the name to say "Performante <insert device name here>". A finished version, looks like this: <br>
+Now your line may look a little different, depending on the model that you are building for, but that doesn't matter. Over here, edit the name to say "Performante (insert device name here)". A finished version, looks like this: <br>
 **<SEC_FLOATING_FEATURE_SETTINGS_CONFIG_BRAND_NAME>Performante - Tab S2</SEC_FLOATING_FEATURE_SETTINGS_CONFIG_BRAND_NAME>**. <br>
 7. After you have done this, save the new factory file, and you can move on to the next step.
 
@@ -95,5 +95,5 @@ Once you have given the name, click the confirm button, and wait for the kitchen
 4. Once the ROM finishes compiling, go into the **Classy Kitchen Folder**, and go-to the "**Output**" folder, and you will now see your finished ROM! Just rename the zip to this format: <br>
 **Performante (insert version number) - (insert model number) - (insert current date)** <br>
 A finished zip file name should look like this: <br>
-**Performante 1.0 - T815 - 5-03-2025.zip** <br>
+**Performante 1.0 - T815 - 5-03-2025.zip** br>
 And with that, **CONGRAGULATIONS**! Your ROM build is officially complete! Upload this zip file to whatever file sharing host server you want, make your **XDA thread**, and post it!
