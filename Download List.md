@@ -4,4 +4,6 @@
 
 - This is our kitchen that we'll be using to create our ROMs with.
 
-2. Vanity OS Dev Kit:  
+2. Vanity OS Dev Kit:  https://mega.nz/file/HOpn0SLI#QF_ikTLAw1u9TGGOJ6WMDzNxc8CVmeZRK7gfSZ-dC44
+
+- This contains all the files you'll need to build the ROM with, including the DB scripts, floating-feature files & camera_feature files, along with.
