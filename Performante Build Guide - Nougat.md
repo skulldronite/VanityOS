@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e8a1126f-b2b5-4b17-a718-1c476d0ef768)#**Build Guide for Vanity OS Flavour - Performante**
+**Build Guide for Vanity OS Flavour - Performante**
 
 This is going to be a guide on how to build the Performante flavour, of Vanity OS. You will need all the files within the "**Download List**".
 
