@@ -1,5 +1,5 @@
 # VanityOS
-All required information, files and scripts on the project known as Vanity OS. Created by Vishan Karunaratne, and released on XDA by the alias Skulldron. Huge thanks to [Sourajit Karmakar](https://github.com/sourajitk) as well for assisting me throughout the process of making this happen, alongside countless other people including the developer for ClassyKitchen.
+All required information, files and scripts on the project known as Vanity OS. Created by Vishan Karunaratne, and released on XDA by the alias Skulldron. Props to [Sourajit Karmakar](https://github.com/sourajitk) for helping with formatting, as well as the developer of our fabled kitchen, Classy Kitchen.
 
 **What is Vanity OS?**
 
