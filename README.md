@@ -1,5 +1,5 @@
 # VanityOS
-All required information, files and scripts on the project known as Vanity OS. Created by Vishan Karunaratne, and released on XDA by the alias Skulldron. Props to [Sourajit Karmakar](https://github.com/sourajitk) for helping with formatting, as well as the developer of our fabled kitchen, Classy Kitchen.
+All required information, files and scripts on the project known as Vanity OS. Created by Vishan Karunaratne, and released on XDA by the alias Skulldron.
 
 **What is Vanity OS?**
 
@@ -32,6 +32,8 @@ Within this directory, I have created a guide on what files you need, how to uti
 **Telegram Group Link:** [VanityOS Group](https://t.me/VanityOS)
 
 **XDA Account Username:** [XDA Forums](https://xdaforums.com/m/skulldron.7243932/)
+
+Props to [Sourajit Karmakar](https://github.com/sourajitk) for helping with formatting, as well as the developer of our fabled kitchen, Classy Kitchen.
 
 **Conclusion:**
 
